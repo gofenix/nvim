@@ -1,4 +1,4 @@
-require'gitsigns'.setup()
+-- require'gitsigns'.setup()
 
 require'nvim-treesitter.configs'.setup{
     highlight = {
