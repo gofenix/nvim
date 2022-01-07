@@ -1,5 +1,7 @@
 runtime config.lua
 
+let mapleader = "\<Space>"
+
 set termguicolors
 set ignorecase
 set smartcase
@@ -19,6 +21,8 @@ nnoremap <c-p> :call fzf#Open()<cr>
 let g:ag_cli = 'rg'
 
 nnoremap <c-u> :Mru<cr>
+map q: :q
+
 
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
